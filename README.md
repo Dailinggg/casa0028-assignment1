@@ -1,5 +1,8 @@
 London Blue Plaques Explorer
 
+Live site: https://dailinggg.github.io/casa0028-assignment1/
+Code: https://github.com/Dailinggg/casa0028-assignment1
+
 This is a single-page React app for exploring how roles commemorated on London blue plaques change over time. The app separates volume (total plaques per decade) from composition (stacked roles by decade). The controls are designed to test whether a pattern is stable, rather than just making the charts look interactive.
 
 Data
