@@ -34,7 +34,7 @@ export default function App() {
   const [topN, setTopN] = useState(8);
 
   useEffect(() => {
-    fetch("/plaques_london.csv")
+    fetch(`${import.meta.env.BASE_URL}plaques_london.csv`)
       .then((res) => {
         if (!res.ok) throw new Error(`Fetch failed: ${res.status}`);
         return res.text();
